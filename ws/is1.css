@@ -1,19 +1,20 @@
 .mex{
-    margin-left: 60px;
     display: flex;
     align-items: left;
     justify-content: left;
     min-height: 80vh;
 }
+
 .lz{
 	text-align: right;
 	color: #ffffff;
 	bottom: 0;
+	right: 0;
 	z-index: 2;
     position: fixed;
     width: 100%;
 	margin-bottom: 10px;
-	margin-left: -10px;
+	margin-right: 10px;
 }
 .d7{
     position: sticky;
@@ -42,6 +43,12 @@
 h1{
     color: rgb(255, 255, 255);
 }
+
+.rom{
+	align-items:center;
+    justify-content:center;
+}
+
 .header-banner {
     z-index: 2;
     padding: 8px;
@@ -71,7 +78,8 @@ body {
 	justify-content: center;
 }
 
-.screen {		
+.screen {
+	margin: 60px;		
     border-radius: 25px;
 	background: linear-gradient(90deg, #111111, #0e0d0d);		
 	position: relative;		
@@ -95,7 +103,7 @@ body {
 	clip-path: inset(0 0 0 0);	
 }
 .login {
-	width: 320px;
+	width: 280px;
 	padding: 30px;
 }
 
@@ -110,7 +118,7 @@ body {
 	border-bottom: 2px solid #D1D1D4;
 	background: none;
 	padding: 10px;
-	width: 75%;
+	width: 100%;
 	transition: .2s;
     color: #ffffff;
 }
@@ -122,11 +130,18 @@ body {
 	border-bottom-color: #444444;
 }
 
+.cce{
+	justify-content: center;
+	align-items: center;
+}
+
 .login__submit {
+	width: fit-content;
+	margin: 60px;
+	justify-content: center;
     border: none;
 	background: #0a84ff;
 	font-size: 14px;
-	margin-top: 30px;
 	padding: 16px 20px;
 	border-radius: 26px;
 	font-weight: 700;
