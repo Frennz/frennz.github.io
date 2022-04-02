@@ -1,3 +1,0 @@
-# LETA
-## fermi
-### oscar
