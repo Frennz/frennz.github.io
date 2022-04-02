@@ -1,0 +1,151 @@
+.mex{
+    margin-left: 60px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 80vh;
+}
+.lz{
+	text-align: right;
+	color: #ffffff;
+	bottom: 0;
+	z-index: 2;
+    position: fixed;
+    width: 100%;
+	margin-bottom: 10px;
+	margin-left: -10px;
+}
+.d7{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align:right;
+ }
+.logan{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    align-items:center;
+    justify-content:center;
+}
+.lb{
+    align-items:center;
+    justify-content:center;
+    font-size: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.header-banner {
+    z-index: 2;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+
+body {
+	z-index: -2;
+	background: linear-gradient(90deg, #000000, #222222);		
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.screen {		
+    border-radius: 25px;
+	background: linear-gradient(90deg, #111111, #0e0d0d);		
+	position: relative;		
+	box-shadow: 0px 0px 24px #000000;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+.login {
+	width: 320px;
+	padding: 30px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	width: 75%;
+	transition: .2s;
+    color: #ffffff;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #444444;
+}
+
+.login__submit {
+    border: none;
+	background: #0a84ff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	font-weight: 700;
+	align-items: center;
+	width: 100%;
+	color: #ffffff;
+	cursor: pointer;
+	transition: .2s;
+}
+
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+  }
