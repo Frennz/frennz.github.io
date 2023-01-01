@@ -52,7 +52,7 @@ a.h1{
 }
 
 .c1{
-	outline: 2px solid rgb(255, 255, 255);
+	outline: 0px solid rgb(255, 255, 255);
 	width: auto;
 	height: auto;
 	background-color:rgba(0, 0, 0, 0.4);
@@ -75,7 +75,7 @@ h2{
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
-	outline: 2px solid rgb(255, 255, 255);
+	outline: 0px solid rgb(255, 255, 255);
 	text-align: right;
 	color: #ffffff;
 	bottom: 0;
