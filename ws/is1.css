@@ -1,18 +1,54 @@
+
+
 @font-face {
-	font-family: 'Anybody';
-	src: url(ws\Anybody\ETCAnybodyPB.woff2) format('woff2-variations');
+	font-family: "Anybody";
+	src: url(Anybody/Anybody[slnt\,wdth\,wght].woff2) format('woff2-variations');
 	font-display: block;
 	font-style: normal;
 	font-weight: 100 900;
 	font-stretch: 10% 400%;
 }
-
 * {
-	box-sizing: border-box;
 	margin: 0;
-	padding: 0;	
-	font-family: Raleway, sans-serif;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Anybody";
 }
+
+
+
+span {
+	color: #000;
+	font-size: 10vw;
+	text-decoration: none;
+	font-weight: 100;
+	letter-spacing: -3px;
+	animation: weight 2s infinite;
+	animation-delay: calc(var(--char-index) * 150ms);
+}
+
+@keyframes weight {
+	from {
+		font-weight: 100;
+	}
+
+	50% {
+		font-weight: 900;
+	}
+
+	to {
+		font-weight: 100;
+	}
+}
+
+
+
+
+@font-face {
+	font-family: "Gellix";
+	src: url("Gellix/Gellix-RegularItalic.woff2") format('woff2');
+  }
+
 
 body {
 	z-index: -2;
@@ -20,8 +56,9 @@ body {
 }
 
 .header{
-	outline: 0px solid rgb(255, 255, 255);
-    z-index: 2;
+	font-family: Raleway, sans-serif;
+	outline: 2px solid rgb(255, 255, 255);
+    z-index: 100;
     padding: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +89,7 @@ a.h1{
 }
 
 .c1{
-	outline: 0px solid rgb(255, 255, 255);
+	outline: 2px solid rgb(255, 255, 255);
 	width: auto;
 	height: auto;
 	background-color:rgba(0, 0, 0, 0.4);
@@ -75,7 +112,7 @@ h2{
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
-	outline: 0px solid rgb(255, 255, 255);
+	outline: 2px solid rgb(255, 255, 255);
 	text-align: right;
 	color: #ffffff;
 	bottom: 0;
@@ -119,3 +156,99 @@ a.imprint{
 
 
   
+.Bg{
+	display: flex;
+	flex-direction: column;
+	
+    justify-content: center;
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+
+
+.mg{
+	display: flex;
+	flex-direction: column;
+	
+    justify-content: center;
+}
+
+.r1{
+	background-color: rgb(51, 255, 0);
+	width: 100vw;
+	height: 20vh;
+	z-index: 0;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.r2{
+	background-color: rgb(0, 38, 255);
+	width: 100vw;
+	height: 20vh;
+	z-index: 0;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.l1{
+	outline: 2px solid rgb(255, 255, 255);
+	background-color: coral;
+	width: 50vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+
+.l2{
+	outline: 2px solid rgb(255, 255, 255);
+	background-color: darkkhaki;
+	width: 50vw;
+	height: 20vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.l3{
+	outline: 2px solid rgb(255, 255, 255);
+	background-color: goldenrod;
+	width: 80vw;
+	height: 20vh;
+}
+
+.l4{
+	outline: 2px solid rgb(255, 255, 255);
+	background-color: lightcoral;
+	width: 20vw;
+	height: 20vh;
+}
+
+h3{
+	font-family: "Anybody";
+}
+
+h4{
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
