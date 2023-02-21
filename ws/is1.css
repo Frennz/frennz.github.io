@@ -202,7 +202,7 @@ a.imprint{
 
 .l1{
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: coral;
+	background-color: black;
 	width: 50vw;
 	height: 20vh;
 	justify-content: center;
@@ -214,7 +214,7 @@ a.imprint{
 
 .l2{
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: darkkhaki;
+	background-color: black;
 	width: 50vw;
 	height: 20vh;
 	display: flex;
@@ -225,14 +225,14 @@ a.imprint{
 
 .l3{
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: goldenrod;
+	background-color: black;
 	width: 80vw;
 	height: 20vh;
 }
 
 .l4{
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: lightcoral;
+	background-color: black;
 	width: 20vw;
 	height: 20vh;
 }
