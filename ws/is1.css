@@ -19,11 +19,11 @@
 
 span {
 	color: white;
-	font-size: 10vw;
+	font-size: 10vw
 	text-decoration: none;
 	font-weight: 100;
 	letter-spacing: -3px;
-	animation: weight 2s infinite;
+	animation: weight 4s infinite;
 	animation-delay: calc(var(--char-index) * 150ms);
 }
 
