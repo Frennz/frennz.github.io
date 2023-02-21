@@ -29,15 +29,15 @@ span {
 
 @keyframes weight {
 	from {
-		font-weight: 100;
+		font-weight: 20;
 	}
 
 	50% {
-		font-weight: 900;
+		font-weight: 990;
 	}
 
 	to {
-		font-weight: 100;
+		font-weight: 20;
 	}
 }
 
@@ -201,6 +201,7 @@ a.imprint{
 
 
 .l1{
+	padding-top: 2vh;
 	outline: 2px solid rgb(255, 255, 255);
 	background-color: black;
 	width: 50vw;
@@ -213,6 +214,7 @@ a.imprint{
 
 
 .l2{
+	padding-top: 2vh;
 	outline: 2px solid rgb(255, 255, 255);
 	background-color: black;
 	width: 50vw;
@@ -224,10 +226,15 @@ a.imprint{
 }
 
 .l3{
+	padding-top: 2vh;
 	outline: 2px solid rgb(255, 255, 255);
 	background-color: black;
 	width: 80vw;
 	height: 20vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
 }
 
 .l4{
@@ -244,6 +251,10 @@ h3{
 h4{
 	font-weight: bold;
 
+}
+
+.pf{
+	color: black;
 }
 
 
