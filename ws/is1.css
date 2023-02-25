@@ -24,6 +24,12 @@
 }
 
 span {
+	color: black;
+	-webkit-filter: blur(6px);
+	
+	-webkit-background-clip: text;
+	background-clip: text;
+	filter: blur(6px);
 	animation: move 4s linear infinite;
 	font-family: "Anybody";
 	font-size: 10vw;
@@ -35,16 +41,28 @@ span {
 }
 
 .col{
+	margin-top: 0;
 	color: black;
-	filter: blur(6px);
-	background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
-	background-size: 200% auto;
+	-webkit-filter: blur(6px);
 	
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;;
 	background-clip: text;
+	filter: blur(6px);
+	
+	
 }
-@keyframes move { to { background-position: 200% center; } }
+.col2{
+	margin-top: 0;
+	color: black;
+	-webkit-filter: blur(6px);
+	
+	-webkit-background-clip: text;
+	background-clip: text;
+	filter: blur(6px);
+	
+	
+}
+
 
 @keyframes weight {
 	from {
@@ -61,9 +79,17 @@ span {
 }
 
 body {
+
 	z-index: -2;
 	background-color: white;	
 }
+@keyframes move {
+	 to {
+		 background-position: 200% center; 
+		} 
+	}
+
+
 
 .header{
     z-index: 100;
@@ -108,13 +134,14 @@ h2{
 	margin: 0;
 }
 .imp{
+	background-color: black;
 	font-family: "Rajdhani";
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
 
 	text-align: right;
-	color: black;
+	color: white;
 	bottom: 0;
 	right: 0;
 	z-index: 2;
@@ -129,7 +156,7 @@ a.imprint{
 .sitedate{
 	font-family: "Rajdhani";
 	text-align: right;
-	color: black;
+	color: white;
 	bottom: 0;
 	right: 0;
 	z-index: 2;
@@ -161,7 +188,7 @@ a.imprint{
 	
     justify-content: center;
 	width: 100vw;
-	height: 80vh;
+	height: 40vh;
 	z-index: -1;
 }
 
@@ -177,11 +204,7 @@ a.imprint{
 .r1{
 	width: 100vw;
 	height: 20vh;
-	z-index: 0;
-	display: flex;
 	
-	justify-content: center;
-	align-items: center;
 }
 
 .r2{
@@ -211,22 +234,21 @@ a.imprint{
 .l2{
 	padding-top: 2vh;
 
-	width: 50vw;
+	width: 100vw;
 	height: 20vh;
-	display: flex;
-
 	justify-content: center;
 	align-items: center;
+	display: flex;
 }
 
 .l3{
 	padding-top: 2vh;
-	width: 80vw;
-	height: 20vh;
-	display: flex;
 
+	width: 100vw;
+	height: 20vh;
 	justify-content: center;
 	align-items: center;
+	display: flex;
 }
 
 .l4{
