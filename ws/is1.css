@@ -1,4 +1,13 @@
+@font-face {
+	font-family: "Rajdhani";
+	src: url("Rajdhani/Rajdhani-Light.ttf") format('woff2');
+  }
 
+
+@font-face {
+	font-family: "Gellix";
+	src: url("Gellix/Gellix-RegularItalic.woff2") format('woff2');
+  }
 
 @font-face {
 	font-family: "Anybody";
@@ -12,18 +21,18 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Anybody";
 }
 
 
 
 span {
-	color: white;
+	font-family: "Anybody";
+	color: rgb(0, 0, 0);
 	font-size: 10vw;
 	text-decoration: none;
 	font-weight: 100;
 	letter-spacing: -3px;
-	animation: weight 4s infinite;
+	animation: weight 8s infinite;
 	animation-delay: calc(var(--char-index) * 150ms);
 }
 
@@ -41,28 +50,18 @@ span {
 	}
 }
 
-
-
-
-@font-face {
-	font-family: "Gellix";
-	src: url("Gellix/Gellix-RegularItalic.woff2") format('woff2');
-  }
-
-
 body {
 	z-index: -2;
-	background-color: rgb(0, 0, 0);	
+	background-color: white;	
 }
 
 .header{
-	font-family: Raleway, sans-serif;
-	outline: 2px solid rgb(255, 255, 255);
+	outline: 2px solid white;
     z-index: 100;
     padding: 8px;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(0, 0, 0);
+    background-color:white;
     position: fixed;
     top: 0;
     left: 0;
@@ -71,10 +70,7 @@ body {
 
 a.h1{
 	all: unset;
-    color: #FFFFFF;
-	font-family: Raleway, sans-serif;
-	font-size: 32px;
-	font-weight: bold;
+    color: white;
 }
 
 .content{
@@ -92,44 +88,39 @@ a.h1{
 	outline: 2px solid rgb(255, 255, 255);
 	width: auto;
 	height: auto;
-	background-color:rgba(0, 0, 0, 0.4);
 	border-radius: 0px;
 }
 
 h2{
 	color: #FFFFFF;
-	font-family: 'Anybody', Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-stretch: 400%;
-	font-size: 25vw;
 	/* display: flex; */
   	/* width: 80%; */
   	/* justify-content: space-between; */
 	margin: 0;
 }
 .imp{
+	font-family: "Rajdhani";
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
 	outline: 2px solid rgb(255, 255, 255);
 	text-align: right;
-	color: #ffffff;
+	color: black;
 	bottom: 0;
 	right: 0;
 	z-index: 2;
     position: fixed;
     width: 100%;
-	background-color: rgb(0, 0, 0);
 }
 a.imprint{
+	font-family: "Rajdhani";
 	all: unset;
-	font-family: Raleway, sans-serif;
 }
 
 .sitedate{
+	font-family: "Rajdhani";
 	text-align: right;
-	color: #ffffff;
+	color: black;
 	bottom: 0;
 	right: 0;
 	z-index: 2;
@@ -137,7 +128,6 @@ a.imprint{
     width: 100%;
 	margin-bottom: 10px;
 	margin-right: 20px;
-	/*background-color: aqua; */
 }
 
 
@@ -161,7 +151,6 @@ a.imprint{
 	flex-direction: column;
 	
     justify-content: center;
-	background-color: black;
 	width: 100vw;
 	height: 80vh;
 	z-index: -1;
@@ -177,7 +166,6 @@ a.imprint{
 }
 
 .r1{
-	background-color: black;
 	width: 100vw;
 	height: 20vh;
 	z-index: 0;
@@ -188,7 +176,6 @@ a.imprint{
 }
 
 .r2{
-	background-color: black;
 	width: 100vw;
 	height: 20vh;
 	z-index: 0;
@@ -203,8 +190,7 @@ a.imprint{
 .l1{
 	padding-top: 2vh;
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: black;
-	width: 50vw;
+	width: 100vw;
 	height: 20vh;
 	justify-content: center;
 	align-items: center;
@@ -216,7 +202,6 @@ a.imprint{
 .l2{
 	padding-top: 2vh;
 	outline: 2px solid rgb(255, 255, 255);
-	background-color: black;
 	width: 50vw;
 	height: 20vh;
 	display: flex;
@@ -227,8 +212,6 @@ a.imprint{
 
 .l3{
 	padding-top: 2vh;
-	outline: 2px solid rgb(255, 255, 255);
-	background-color: black;
 	width: 80vw;
 	height: 20vh;
 	display: flex;
@@ -238,23 +221,13 @@ a.imprint{
 }
 
 .l4{
-	outline: 2px solid rgb(255, 255, 255);
-	background-color: black;
 	width: 20vw;
 	height: 20vh;
 }
 
-h3{
-	font-family: "Anybody";
-}
 
-h4{
-	font-weight: bold;
-
-}
 
 .pf{
-	color: black;
 }
 
 
