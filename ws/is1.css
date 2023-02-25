@@ -23,11 +23,9 @@
 	box-sizing: border-box;
 }
 
-
-
 span {
+	animation: move 4s linear infinite;
 	font-family: "Anybody";
-	color: rgb(0, 0, 0);
 	font-size: 10vw;
 	text-decoration: none;
 	font-weight: 100;
@@ -35,6 +33,18 @@ span {
 	animation: weight 8s infinite;
 	animation-delay: calc(var(--char-index) * 150ms);
 }
+
+.col{
+	color: black;
+	filter: blur(6px);
+	background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
+	background-size: 200% auto;
+	
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;;
+	background-clip: text;
+}
+@keyframes move { to { background-position: 200% center; } }
 
 @keyframes weight {
 	from {
@@ -56,7 +66,6 @@ body {
 }
 
 .header{
-	outline: 2px solid white;
     z-index: 100;
     padding: 8px;
     margin-left: auto;
@@ -85,7 +94,7 @@ a.h1{
 }
 
 .c1{
-	outline: 2px solid rgb(255, 255, 255);
+
 	width: auto;
 	height: auto;
 	border-radius: 0px;
@@ -103,7 +112,7 @@ h2{
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
-	outline: 2px solid rgb(255, 255, 255);
+
 	text-align: right;
 	color: black;
 	bottom: 0;
@@ -189,7 +198,7 @@ a.imprint{
 
 .l1{
 	padding-top: 2vh;
-	outline: 2px solid rgb(255, 255, 255);
+
 	width: 100vw;
 	height: 20vh;
 	justify-content: center;
@@ -201,7 +210,7 @@ a.imprint{
 
 .l2{
 	padding-top: 2vh;
-	outline: 2px solid rgb(255, 255, 255);
+
 	width: 50vw;
 	height: 20vh;
 	display: flex;
@@ -225,10 +234,6 @@ a.imprint{
 	height: 20vh;
 }
 
-
-
-.pf{
-}
 
 
 
