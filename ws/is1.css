@@ -87,14 +87,15 @@ span {
 
 .col3{
 	color: black;
-	font-family: "Anybody";
-	font-size: 5vw;
-	text-decoration: none;
-	font-weight: 990;
-	letter-spacing: -3px;
+	
+	
 }
 
 a{
+	letter-spacing: -3px;
+	font-family: "Anybody";
+	font-size: 5vw;
+	font-weight: 990;
 	color: black;
 }
 
@@ -167,8 +168,17 @@ body {
 }
 
 a.h1{
+
 	all: unset;
     color: white;
+}
+
+h6{
+	letter-spacing: -3px;
+	font-family: "Anybody";
+	font-size: 5vw;
+	font-weight: 990;
+	color: black;
 }
 
 .content{
