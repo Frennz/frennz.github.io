@@ -23,20 +23,44 @@
 	box-sizing: border-box;
 }
 
+@-webkit-keyframes image_blur {
+    0% { -webkit-filter: blur(6px);}
+    50% { -webkit-filter: blur(0px);}
+    100% { -webkit-filter: blur(6px);}
+}
+
+@keyframes weds {
+	from {
+		filter: blur(8px);
+		color: #FFFFFF;
+	}
+
+	50% {
+		filter: blur(0px);
+		color: black;
+	}
+
+	to {
+		filter: blur(8px);
+		color: #FFFFFF;
+	}
+}
+
+
+
 span {
 	color: black;
-	-webkit-filter: blur(6px);
-	
+	-webkit-animation: image_blur 8s ;
 	-webkit-background-clip: text;
 	background-clip: text;
-	filter: blur(6px);
+	animation: weds 16s linear 0s infinite;
 	animation: move 4s linear infinite;
 	font-family: "Anybody";
-	font-size: 10vw;
+	font-size: 5vw;
 	text-decoration: none;
 	font-weight: 100;
 	letter-spacing: -3px;
-	animation: weight 8s infinite;
+	animation: weight 16s infinite;
 	animation-delay: calc(var(--char-index) * 150ms);
 }
 
@@ -47,22 +71,31 @@ span {
 	
 	-webkit-background-clip: text;
 	background-clip: text;
-	filter: blur(6px);
+	animation: weds 16s linear 0s infinite;
 	
 	
 }
 .col2{
 	margin-top: 0;
-	color: black;
 	-webkit-filter: blur(6px);
 	
 	-webkit-background-clip: text;
 	background-clip: text;
-	filter: blur(6px);
+	animation: weds 16s linear 0s infinite;
 	
 	
 }
-
+.res{
+	font-family: "Rajdhani";
+	color: white;
+	z-index: 6;
+    position: fixed;
+    width: 100%;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	bottom: 0;
+	left: 15px;
+}
 
 @keyframes weight {
 	from {
