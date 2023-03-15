@@ -138,21 +138,21 @@ a.imprint{
 	background-color: coral;
 	width: 230px;
 	height: 230px;
-	z-index: 10;
+	z-index: 2;
 }
 
 .im2{
 	background-color: royalblue;
 	width: 230px;
 	height: 230px;
-	z-index: 10;
+	z-index: 2;
 }
 
 .txtc{
 	background-color: greenyellow;
 	width: 400px;
 	height: 230px;
-	z-index: 10;
+	z-index: 2;
 }
 
 
