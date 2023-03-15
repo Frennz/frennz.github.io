@@ -156,15 +156,20 @@ a.imprint{
 }
 
 .ind{
+	background-color: chocolate;
 	justify-content: space-around;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	
+
 }
 
   
+p{
+	padding-left: 5px;
+	padding-right: 5px;
 
+}
 
 
 
