@@ -106,8 +106,8 @@ h1{
 	box-sizing: border-box;
 }
 
-.res{
-	width: 100%;
+.res{ss
+	width: 80%;
 	margin-bottom: 10px;
 	margin-right: 20px;
 	bottom: 0;
@@ -143,6 +143,7 @@ body {
     width: 100%;
 }
 a.imprint{
+	z-index: 30:
 	font-family: "Rajdhani";
 	all: unset;
 }
@@ -216,9 +217,7 @@ img{
 }
 
 	
-p{
-	
-}
+
 
 
 
