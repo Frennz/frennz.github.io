@@ -12,6 +12,38 @@
 	font-stretch: 10% 400%;
 }
 
+
+b{
+	font-family: "Rajdhani";
+}
+
+p{
+	font-family: "Rajdhani";
+}
+
+a{
+	font-family: "Rajdhani";
+	
+}
+
+
+a:link {
+	text-decoration: none!important;
+  }
+  
+  a:visited {
+	text-decoration: none!important;
+  }
+  
+  a:hover {
+	text-decoration:underline;
+  }
+  
+  a:active {
+	text-decoration: none!important;
+  }
+
+
 .sip{
 	display: flex;
 	justify-content: space-around;
@@ -121,12 +153,13 @@ a.imprint{
 	color: white;
 	bottom: 0;
 	right: 0;
-	z-index: 2;
+	z-index: 3;
     position: fixed;
     width: 100%;
 	margin-bottom: 10px;
 	margin-right: 20px;
 }
+
 
 .txtl{
 	justify-content: space-around;
