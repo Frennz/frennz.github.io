@@ -40,11 +40,19 @@
 	width: 900px;
 }
 .c2{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 	background-color: yellow;
 	height: 230px;
 	width: 900px;
 }
 .c3{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 	padding: 10px;
 	background-color: brown;
 	height: 230px;
