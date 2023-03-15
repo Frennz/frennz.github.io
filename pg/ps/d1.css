@@ -31,6 +31,10 @@
 }
 
 .c1{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
 	background-color: brown;
 	height: 230px;
 	width: 900px;
@@ -122,6 +126,26 @@ a.imprint{
 
 }
 
+.im1{
+	background-color: coral;
+	width: 230px;
+	height: 230px;
+	z-index: 10;
+}
+
+.im2{
+	background-color: royalblue;
+	width: 230px;
+	height: 230px;
+	z-index: 10;
+}
+
+.txtc{
+	background-color: coral;
+	width: 230px;
+	height: 230px;
+	z-index: 10;
+}
 
 
   
