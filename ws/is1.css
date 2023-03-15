@@ -24,9 +24,14 @@
 }
 
 @-webkit-keyframes image_blur {
-    0% { -webkit-filter: blur(6px);}
+    0% { -webkit-filter: blur(8px);}
     50% { -webkit-filter: blur(0px);}
-    100% { -webkit-filter: blur(6px);}
+    100% { -webkit-filter: blur(8px);}
+}
+
+@-webkit-keyframes image_blur23 {
+    0% { -webkit-filter: blur(8px);}
+    100% { -webkit-filter: blur(0px);}
 }
 
 @keyframes weds {
@@ -46,6 +51,17 @@
 	}
 }
 
+@keyframes wep {
+	from {
+		filter: blur(8px);
+		color: #FFFFFF;
+	}
+
+	to {
+		filter: blur(0px);
+		color: black;
+	}
+}
 
 
 span {
@@ -68,7 +84,6 @@ span {
 	margin-top: 0;
 	color: black;
 	-webkit-filter: blur(6px);
-	
 	-webkit-background-clip: text;
 	background-clip: text;
 	animation: weds 16s linear 0s infinite;
@@ -291,6 +306,8 @@ a.imprint{
 
 
 .l1{
+	-webkit-animation: image_blur23 8s liner 0ms 1;
+	animation: wep 4s linear 0s 1;
 	padding-top: 2vh;
 
 	width: 100vw;
@@ -303,8 +320,9 @@ a.imprint{
 
 
 .l2{
+	-webkit-animation: image_blur23 8s liner 0ms 1;
+	animation: wep 4s linear 0s 1;
 	padding-top: 2vh;
-
 	width: 100vw;
 	height: 20vh;
 	justify-content: center;
