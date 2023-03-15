@@ -157,6 +157,8 @@ a.imprint{
 }
 
 .ind{
+	width: 450px;
+	padding: 2px;
 	background-color: chocolate;
 	justify-content: space-around;
 	display: flex;
