@@ -15,6 +15,7 @@
 .sip{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	height: 800px;
 	background-color: gray;
 }
