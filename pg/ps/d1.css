@@ -135,8 +135,18 @@ a.imprint{
 	
 }
 
-.imc{
+img{
+	height: 100%;
+}
+
+.imgc{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: auto;
+	height: 230px;
 	object-fit: cover;
+	overflow: hidden;
 }
 
 .im1{
