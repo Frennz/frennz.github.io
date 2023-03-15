@@ -18,7 +18,7 @@
 	flex-direction: column;
 	align-items: center;
 	height: 800px;
-	background-color: gray;
+	
 }
 
 .list{
@@ -27,7 +27,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: aqua;
+	
 	width: 900px;
 	height: 750px;
 }
@@ -37,7 +37,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	background-color: brown;
+	
 	height: 230px;
 	width: 900px;
 }
@@ -46,7 +46,7 @@
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	background-color: yellow;
+	
 	height: 230px;
 	width: 900px;
 }
@@ -56,7 +56,7 @@
 	align-items: center;
 	flex-direction: row;
 	
-	background-color: brown;
+	
 	height: 230px;
 	width: 900px;
 }
@@ -132,19 +132,22 @@ a.imprint{
 	justify-content: space-around;
 	display: flex;
 	flex-direction: column;
-	background-color: aqua;
+	
+}
 
+.imc{
+	object-fit: cover;
 }
 
 .im1{
-	background-color: coral;
+	
 	width: 230px;
 	height: 230px;
 	z-index: 2;
 }
 
 .im2{
-	background-color: royalblue;
+	
 	width: 230px;
 	height: 230px;
 	z-index: 2;
@@ -152,7 +155,7 @@ a.imprint{
 
 .txtc{
 	padding: 10px;
-	background-color: greenyellow;
+	
 	width: 400px;
 	height: 230px;
 	z-index: 2;
@@ -161,17 +164,17 @@ a.imprint{
 .ind{
 	width: 450px;
 	padding: 2px;
-	background-color: chocolate;
+	background-color: black;
 	justify-content: space-around;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-
+	color: white;
 }
 
-  
+	
 p{
-	background-color: chartreuse;
+	
 }
 
 
