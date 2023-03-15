@@ -41,6 +41,7 @@
 	width: 900px;
 }
 .c3{
+	padding: 10px;
 	background-color: brown;
 	height: 230px;
 	width: 900px;
@@ -113,7 +114,13 @@ a.imprint{
 	margin-right: 20px;
 }
 
+.txtl{
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	background-color: aqua;
 
+}
 
 
 
