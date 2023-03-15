@@ -143,14 +143,14 @@ a.imprint{
 
 .im2{
 	background-color: royalblue;
-	width: 350px;
+	width: 230px;
 	height: 230px;
 	z-index: 10;
 }
 
 .txtc{
-	background-color: coral;
-	width: 230px;
+	background-color: greenyellow;
+	width: 350px;
 	height: 230px;
 	z-index: 10;
 }
