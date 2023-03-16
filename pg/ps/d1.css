@@ -18,7 +18,9 @@ b{
 }
 
 p{
+	color: black;
 	font-family: "Rajdhani";
+	background-color: white;
 }
 
 a{
@@ -217,7 +219,9 @@ img{
 	color: white;
 }
 
-	
+.txts{
+	background-color: black;
+}	
 
 
 
