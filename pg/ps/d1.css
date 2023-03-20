@@ -211,7 +211,7 @@ img{
 }
 
 .ind{
-	patting: 2px;
+	padding: 2px;
 	z-index: 100;
 	width: 450px;
 	background-color: black;
