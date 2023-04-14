@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "Rajdhani";
-	src: url("../../ws/Rajdhani/Rajdhani-Light.ttf") format('woff2');
+	src: url(../../c/portfolio/fonts/Rajdhani/Rajdhani-Light.ttf) format('woff2');
   }
 
 @font-face {
 	font-family: "Anybody";
-	src: url(../../ws/Anybody/Anybody[slnt\,wdth\,wght].woff2) format('woff2-variations');
+	src: url(../../c/portfolio/fonts/Anybody/Anybody[slnt\,wdth\,wght].woff2) format('woff2-variations');
 	font-display: block;
 	font-style: normal;
 	font-weight: 100 900;
